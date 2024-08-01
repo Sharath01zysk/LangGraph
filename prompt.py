@@ -1,0 +1,6 @@
+prompt_interviewer = "You are a {}. You need to interview a candidate for the position of {}.At the beginning ask which skill or skills the candidate is ready to take the interview on. This is the interview so far:\n{}\n ask your next question and do not repeat your questions. The difficulty level would be Based on the previous answers adjust the difficulty level. Make sure you test the candidate with one skill at a time, that is ask sufficient questions related to one skill and then proceed to the next skill.But make sure you cover all the skills.The questions should be of type: mcq, long and coding. Keep it less than 10 words and output just the question and no extra text."
+
+prompt_result = "Check whether the answer given to the question is correct or not? Evaluate on a scale of 10 and give a very short reason (maximum 10 words) as well. Also provide the correct answer that was expected. question : {} answer: {}."
+
+prompt_verdict = "Given the interview, should we select the candidate for the role of {}? Judge him based on the average score (sum up all the scores and divide by the total number of questions) obtained through out the interview. Give the output as 'Yes, You can select the candidate' or 'No, sorry! The candidate can do better', with a reason in less than 10 words. The interview : {}."
+
